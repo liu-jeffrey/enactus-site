@@ -70,5 +70,7 @@ export default {
   font-size: 1.5vw;
   border-radius: 12px;
   font-weight: bold;
+
+  cursor: pointer;
 }
 </style>
