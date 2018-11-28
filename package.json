@@ -10,6 +10,7 @@
     "deploy:gh": "cross-env BASE_URL=/enactus-site/ yarn deploy"
   },
   "dependencies": {
+    "gh-pages": "^2.0.1",
     "vue": "^2.5.17",
     "vue-router": "^3.0.1"
   },
@@ -22,7 +23,6 @@
     "cross-env": "^5.2.0",
     "eslint": "^5.8.0",
     "eslint-plugin-vue": "^5.0.0-0",
-    "gh-pages": "^2.0.1",
     "lint-staged": "^7.2.2",
     "node-sass": "^4.9.0",
     "sass-loader": "^7.0.1",
