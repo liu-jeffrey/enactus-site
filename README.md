@@ -2,26 +2,26 @@
 
 _Enactus UW's website._
 
+[![Code Style: Prettier][prettier-img]][prettier]
+
 ## Project setup
 
-```
-yarn install
-```
-
-### Compiles and hot-reloads for development
-
-```
-yarn run serve
+```bash
+yarn install    # installs package dependencies
+yarn run serve  # compiles and hot-reloads for development
+yarn run build  # compiles and minifies for production
+yarn run lint   # lints and fixes files
 ```
 
-### Compiles and minifies for production
+## Continuous Integration
 
-```
-yarn run build
-```
+This project is configured to build and deploy to the `gh-pages` branch using
+[Travis](https://travis-ci.com).
 
-### Lints and fixes files
+You'll need to add a
+[personl access token from Github](https://github.com/settings/tokens) to the
+project settings on [Travis](https://travis-ci.com) in order for Travis to be
+able to deploy the site to your repository.
 
-```
-yarn run lint
-```
+[prettier]: https://github.com/prettier/prettier
+[prettier-img]: https://img.shields.io/badge/code_style-prettier-ff69b4.svg
