@@ -5,5 +5,5 @@ if (BASE_URL) {
 }
 
 module.exports = {
-  baseUrl: BASE_URL
+  baseUrl: BASE_URL,
 };
