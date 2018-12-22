@@ -26,5 +26,5 @@ able to deploy the site to your repository.
 
 [prettier]: https://github.com/prettier/prettier
 [prettier-img]: https://img.shields.io/badge/code_style-prettier-ff69b4.svg
-[travis]: https://travis-ci.com/stevenxie/enactus-site/
-[travis-img]: https://travis-ci.com/stevenxie/enactus-site.svg?branch=master
+[travis]: https://travis-ci.com/liu-jeffrey/enactus-site/
+[travis-img]: https://travis-ci.com/liu-jeffrey/enactus-site.svg?branch=master
