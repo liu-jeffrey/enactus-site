@@ -9,6 +9,10 @@ cache:
   directories:
     - node_modules
 
+## Declare build environment.
+env:
+  - BASE_URL=/enactus-site/
+
 ## Install dependencies.
 install: yarn install
 
