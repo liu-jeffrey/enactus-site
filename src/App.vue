@@ -9,9 +9,9 @@
       <div id="right-nav">
         <router-link to="/about" class="nav-link">About</router-link>
         <router-link to="/projects" class="nav-link">Projects</router-link>
-        <router-link to="/recruitment" class="nav-link"
-          >Recruitment</router-link
-        >
+        <router-link to="/recruitment" class="nav-link">
+          Recruitment
+        </router-link>
         <router-link to="/sponsors" class="nav-link">Sponsors</router-link>
         <router-link to="/contact" class="nav-link">Contact Us</router-link>
       </div>
